@@ -1,0 +1,23 @@
+START
+│
+├── Does the candidate have basic Python knowledge?
+│       ├── No → REJECT
+│       └── Yes → Next Step
+│
+├── Does the candidate know SQL or data handling?
+│       ├── No → REJECT
+│       └── Yes → Next Step
+│
+├── Has the candidate worked on at least 1 project?
+│       ├── No → WAITLIST
+│       └── Yes → Next Step
+│
+├── Can the candidate explain their project clearly?
+│       ├── No → WAITLIST
+│       └── Yes → Next Step
+│
+├── Does the candidate show problem-solving ability?
+│       ├── No → WAITLIST
+│       └── Yes → SELECT
+│
+END
